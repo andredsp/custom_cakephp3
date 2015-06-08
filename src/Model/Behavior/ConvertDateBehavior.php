@@ -75,6 +75,7 @@ class ConvertDateBehavior extends Behavior
         }
         $newDate = $this->_splitDateTime($entity->get($field));
         list($day, $month, $year) = explode('/', $newDate[0]);
+        $newDate[1] = strlen(trim($newDate[1]))==5?$newDate[1].':00':$newDate[1];
         list($hour, $minute, $second) = explode(':', $newDate[1]);
         if (strlen($year) == 2) {
             $year = $year > 50 ? $year + 1900 : $year + 2000;
