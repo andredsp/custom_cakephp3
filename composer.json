@@ -1,5 +1,5 @@
 {
-    "name": "jorge/custom-cakephp3",
+    "name": "andredsp/custom-cakephp3",
     "description": "CakePHP 3 Custom",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "cakephp3", "facebook"],
@@ -9,6 +9,10 @@
             "name": "Jorge Jardim",
             "email": "jorge@jorgejardim.com.br",
             "homepage": "http://www.jorgejardim.com.br/"
+        },
+        {
+            "name": "André Pinto",
+            "email": "andredsp@alumni.usp.br"
         }
     ],
     "require": {
